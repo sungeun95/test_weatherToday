@@ -1,0 +1,51 @@
+main{width: 430px; height: 932px; background-color: #EBECDC; padding: 10px;}
+main *{text-align: center; font-family: "Noto Sans KR", sans-serif;}
+main .container{
+    width: 100%; height: 100%;
+    border: 3px solid #FDBE57;
+    border-radius: 30px;
+    overflow: hidden;
+}
+main .container .title{width: 100%; padding: 20px 30px; margin-top: 50px;}
+main .container .title *{
+    font-weight: 600; color: #fca23b; 
+}
+main .container .title h1{font-size: 1.875rem; }
+main .container .title h1 em{font-size: 2.5rem; color: #8faccc;}
+main .container .title .weatherbtn{
+    width: 100%; height: 60px; background-color: #FDBE57;
+    margin-top: 50px; border-radius: 10px;
+}
+main .container .title .weatherbtn img{width: 30px; height: 30px;}
+main .container .bottom{
+    width: 100%; margin-top: 100px;
+    padding: 30px;
+    display: flex; flex-flow: column;
+    justify-content: center; align-items: center;
+}
+main .container .bottom .text_top{
+    width: 100%;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+main .container .bottom .text_top * {font-weight: 600;}
+main .container .bottom .text_top .area{font-size: 1.875rem;}
+main .container .bottom .text_top .temperature{font-size: 1.25rem;}
+main .container .bottom .img{
+    width: 100%; height: 250px;
+    margin: 50px 0; background-color: #8faccc;
+    border-radius: 30px;
+}
+main .container .bottom .img p{
+    height: 100%;
+    background: url(../image/03.png) center/ contain;
+}
+main .container .bottom .text_bottom{
+    width: 100%; display: flex; justify-content: center; align-items: center;
+}
+main .container .bottom .text_bottom .weather{
+    font-size: 1.875rem; margin-right: 20px;
+    font-weight: 600;
+}
+main .container .bottom .text_bottom .tmi{}
+main .container .bottom .text_bottom .tmi em{font-weight: 600;}

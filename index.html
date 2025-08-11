@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>20250811 : 날씨앱</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="./scripts/weather.js" defer></script>
 </head>
 <body>
     <main>
         <div class="container">
             <div class="title">
                 <h1><em>오늘</em>의 날<em>씨</em></h1>
-                <button type="button" class="btn"><img src="./image/again.png" alt=""></button>
+                <button type="button" class="weatherbtn"><img src="./image/again.png" alt=""></button>
             </div>
             <div class="bottom">
                 <div class="text_top">
@@ -21,15 +23,14 @@
                     <p class="temperature">22℃</p>
                 </div>
                 <div class="img">
-                    <img src="./image/rain.png" alt="">
+                    <p></p>
                 </div>
                 <div class="text_bottom">
                     <p class="weather">비</p>
-                    <p class="tmi">:: 오늘은 비가 내리겠습니다.</p>
+                    <p class="tmi">:: 오늘 날씨는 <em>비</em>입니다.</p>
                 </div>
             </div>
         </div>
     </main>
-
 </body>
 </html>
